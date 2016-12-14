@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\ProcessEngine.exe.config
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\obj\Debug\ProcessEngine.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\ProcessEngine.exe
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\ProcessEngine.pdb
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\YamlDotNet.dll
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\YamlDotNet.pdb
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\YamlDotNet.xml
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\obj\Debug\ProcessEngine.exe
+c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\obj\Debug\ProcessEngine.pdb

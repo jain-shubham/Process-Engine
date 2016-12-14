@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF400CC4-446A-450E-81D4-1AF084F45E1C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProcessEngine</RootNamespace>
+    <AssemblyName>ProcessEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="YamlDotNet, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\YamlDotNet.4.0.1-pre292\lib\net35\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjacencyList.cs" />
+    <Compile Include="BasicExample.cs" />
+    <Compile Include="ComponentRunner.cs" />
+    <Compile Include="GraphManager\AcyclicJobModel.cs" />
+    <Compile Include="GraphManager\GraphManager.cs" />
+    <Compile Include="GraphManager\GraphStepNode.cs" />
+    <Compile Include="JobScheduler\Fixed Jobs\DynamicJobCreater.cs" />
+    <Compile Include="JobScheduler\Fixed Jobs\FixedJob1.cs" />
+    <Compile Include="JobScheduler\Fixed Jobs\FixedJob2.cs" />
+    <Compile Include="JobScheduler\Fixed Jobs\FixedJob3.cs" />
+    <Compile Include="JobScheduler\Fixed Jobs\PrintJob.cs" />
+    <Compile Include="JobScheduler\JobParameters.cs" />
+    <Compile Include="JobScheduler\JobParametersTable.cs" />
+    <Compile Include="JobScheduler\JobRepository.cs" />
+    <Compile Include="JobScheduler\JobRunner.cs" />
+    <Compile Include="JobScheduler\JobScheduler.cs" />
+    <Compile Include="JobScheduler\JobTypeCatalogueEnum.cs" />
+    <Compile Include="JobScheduler\PartialProcessController.cs" />
+    <Compile Include="JobScheduler\Program.cs" />
+    <Compile Include="JobScheduler\Program2.cs" />
+    <Compile Include="JobScheduler\Util.cs" />
+    <Compile Include="Parser\BaseMapper.cs" />
+    <Compile Include="Parser\IStep.cs" />
+    <Compile Include="Parser\JobMapper.cs" />
+    <Compile Include="Parser\JobModel.cs" />
+    <Compile Include="Parser\MainClass.cs" />
+    <Compile Include="Parser\StepMapper.cs" />
+    <Compile Include="Parser\Trash.cs" />
+    <Compile Include="Parser\Variable.cs" />
+    <Compile Include="Parser\VariableMapper.cs" />
+    <Compile Include="Parser\WorkSpaceFile.cs" />
+    <Compile Include="Parser\WorkSpaceFileFactory.cs" />
+    <Compile Include="Parser\WorkSpaceFileMapper.cs" />
+    <Compile Include="Parser\WorkSpaceFileVersion.cs" />
+    <Compile Include="Parser\WorkSpaceTable.cs" />
+    <Compile Include="Parser\WorkSpaceTableMapper.cs" />
+    <Compile Include="Parser\WorkSpaceTableVersion.cs" />
+    <Compile Include="Parser\YAML_Parse_2.cs" />
+    <Compile Include="Parser\YAML_Step_to_Object.cs" />
+    <Compile Include="ProcessModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

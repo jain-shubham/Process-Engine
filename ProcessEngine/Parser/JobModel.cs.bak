@@ -24,10 +24,5 @@ namespace Engine.Parser
         //List of WorkSpaceFiles
         public List<IWorkSpaceFile> WorkSpaceFiles { get; set; }
         //Class yet to be completed
-
-        public void execute()
-        {
-            // Do nothing
-        }
     }
 }

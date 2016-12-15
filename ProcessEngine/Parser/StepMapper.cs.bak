@@ -9,6 +9,9 @@ namespace Engine.Parser
 {
     class StepMapper
     {
+        private Dictionary<string, string> stepMapperDictionary;
+        private Dictionary<object, object> deserializedStepYamlDic;
+
         private void initialize()
         {
             stepMapperDictionary = new Dictionary<string, string>();

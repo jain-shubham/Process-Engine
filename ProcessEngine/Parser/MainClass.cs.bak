@@ -12,7 +12,7 @@ namespace Engine.Parser
         public static void Main()
         {
             //BasicExample.execute();
-            JobModel objJob = Yaml_to_Object.execute();
+            JobModel objJob = YAML_Parse_2.execute();
             //-ProcessModel model = new ProcessModel();
             //model.RunModel();
 

@@ -15,6 +15,7 @@ namespace Engine.Parser
         List<Object> Attributes { get; set; }
         List<Object> InputData { get; set; }
         List<Object> OutputData { get; set; }
+        void setInputData(WorkSpaceTableVersion table);
 
         //Added By shubham
         int? nodeData { get; set; }
@@ -35,6 +36,7 @@ namespace Engine.Parser
         public List<Object> Attributes { get; set; }
         public List<Object> InputData { get; set; }
         public List<Object> OutputData { get; set; }
+        //public void setInputData(WorkSpaceTable table);
 
         //Added By shubham
         public int? nodeData { get; set; }
@@ -87,6 +89,10 @@ namespace Engine.Parser
         public List<Object> Attributes { get; set; }
         public List<Object> InputData { get; set; }
         public List<Object> OutputData { get; set; }
+        //public void setInputData(IWorkSpaceFile file)
+        //{
+        //this.InputData = file;
+        //}
 
         //Added By shubham
         public int? nodeData { get; set; }

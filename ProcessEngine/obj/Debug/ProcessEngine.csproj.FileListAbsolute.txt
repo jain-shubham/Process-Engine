@@ -7,3 +7,6 @@ c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine
 c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\bin\Debug\YamlDotNet.xml
 c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\obj\Debug\ProcessEngine.exe
 c:\users\admin\documents\visual studio 2013\Projects\ProcessEngine\ProcessEngine\obj\Debug\ProcessEngine.pdb
+C:\Users\Jitendra\Desktop\GitHub Local Repos\ProcessEngine\bin\Debug\ProcessEngine.exe.config
+C:\Users\Jitendra\Desktop\GitHub Local Repos\ProcessEngine\obj\Debug\ProcessEngine.exe
+C:\Users\Jitendra\Desktop\GitHub Local Repos\ProcessEngine\obj\Debug\ProcessEngine.pdb

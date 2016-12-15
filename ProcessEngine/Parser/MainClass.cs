@@ -8,7 +8,7 @@ namespace Engine.Parser
 {
     class MainClass
     {
-        // Main method*********
+        // Main method***
         public static void Main()
         {
             //BasicExample.execute();
